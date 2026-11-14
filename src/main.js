@@ -107,7 +107,7 @@ const projectCards = projects.map((project, index) => `
 
 document.querySelector('#app').innerHTML = `
   <header class="site-header">
-    <a class="wordmark" href="#home" aria-label="Your Name, home">Hariette<span>·</span></a>
+    <a class="wordmark" href="#home" aria-label="Hariette Bisa, home">Hariette<span>·</span></a>
     <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
     <nav class="site-nav" aria-label="Main navigation">
       <a href="#about">About</a>
