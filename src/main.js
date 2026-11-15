@@ -228,7 +228,7 @@ document.querySelector('#app').innerHTML = `
       <div class="contact-card">
         <div class="contact-top"><span>HAVE A GOOD ONE IN MIND?</span><span class="contact-star">✳</span></div>
         <h2>Let’s make<br />something <span class="serif-word">matter.</span></h2>
-        <div class="contact-bottom"><p>Have a project, a question, or a playlist to swap?<br />My inbox is always open.</p><a class="button button-light" href="mailto:hariettebisa@gmail.com">Say hello <span>↗</span></a></div>
+        <div class="contact-bottom"><p>Have a project, a question, or a playlist to swap?<br />My inbox is always open.</p><a class="button button-light" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hariettebisa%40gmail.com" target="_blank" rel="noopener noreferrer">Say hello <span>↗</span></a></div>
       </div>
     </section>
   </main>
