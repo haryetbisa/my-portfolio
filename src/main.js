@@ -130,7 +130,7 @@ document.querySelector('#app').innerHTML = `
           <a class="button button-outline" href="/resume.pdf" download="Hariette-Bisa-Resume.pdf">Download my resume <span>↓</span></a>
         </div>
       </div>
-      <img class="hero-visual" src="/pic_chibi.jpg" alt="A black-and-white chibi illustration portrait" />
+      <img class="hero-visual" src="/picture.png" alt="A black-and-white chibi illustration portrait" />
       <a class="scroll-note" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
     </section>
 
