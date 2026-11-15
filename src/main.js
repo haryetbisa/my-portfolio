@@ -130,7 +130,7 @@ document.querySelector('#app').innerHTML = `
           <a class="button button-outline" href="/resume.pdf" download="Hariette-Bisa-Resume.pdf">Download my resume <span>↓</span></a>
         </div>
       </div>
-      <img class="hero-visual" src="/picture.png" alt="A black-and-white chibi illustration portrait" />
+      <img class="hero-visual" src="/gallery/uniform_pic.jpg" alt="Portrait in a school uniform" />
       <a class="scroll-note" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
     </section>
 
@@ -180,7 +180,7 @@ document.querySelector('#app').innerHTML = `
         <div class="education-grid">
           <h2>Curiosity<br />got me <span class="serif-word">here.</span></h2>
           <div class="education-content">
-            <article class="education-item"><span class="education-year">2023 — Present</span><div><h3>Bachelor of Science in Information Technology</h3><p>STI College Batangas</p><span class="education-detail">Add a focus, favorite class, or achievement here.</span></div><span class="education-mark">✳</span></article>
+            <article class="education-item"><span class="education-year">2023 — Present</span><div><h3>Bachelor of Science in Information Technology</h3><p>STI College Batangas</p><span class="education-detail">Relevant Courses: Computer Programming 1 & 2, Human-Computer Interaction, Web System and Technologies, Data Structures and Algorithms, Advanced Database Management</span></div><span class="education-mark">✳</span></article>
           </div>
         </div>
       </div>
@@ -203,22 +203,12 @@ document.querySelector('#app').innerHTML = `
           </article>
           <article class="certificate-tile">
             <div class="certificate-preview">
-              <img src="/certificate/Java.png" alt="Java certificate" loading="lazy" />
+              <img src="/certificate/TESDA.png" alt="Java certificate" loading="lazy" />
             </div>
             <div class="certificate-details">
-              <span class="eyebrow">ORACLE ACADEMY</span>
-              <h3>Java Fundamentals</h3>
-              <p>Course certificate</p>
-            </div>
-          </article>
-          <article class="certificate-tile">
-            <div class="certificate-preview">
-              <img src="/certificate/Java.png" alt="Java certificate" loading="lazy" />
-            </div>
-            <div class="certificate-details">
-              <span class="eyebrow">ORACLE ACADEMY</span>
-              <h3>Java Fundamentals</h3>
-              <p>Course certificate</p>
+              <span class="eyebrow">TESDA</span>
+              <h3>Developing Designs for User Experience(UX)</h3>
+              <p>Completion certificate</p>
             </div>
           </article>
         </div>
