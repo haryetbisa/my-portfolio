@@ -122,15 +122,17 @@ document.querySelector('#app').innerHTML = `
   <main>
     <section class="hero section-wrap" id="home">
       <div class="hero-copy">
-        <p class="eyebrow hero-kicker"><span class="status-dot"></span> IT student and UI/UX Aspirant</p>
+        <p class="eyebrow hero-kicker"><span class="status-dot"></span> OPEN FOR INTERNSHIP OPPORTUNITY</p>
         <h1>Exploring the<br />space where codes turn to <span class="serif-word">playful ideas.</span></h1>
         <p class="hero-intro">Hi, I’m <strong>Hariette Bisa</strong> — I build thoughtful websites and digital designs, turning big ideas into clear and useful solution.</p>
         <div class="hero-actions">
           <a class="button button-dark" href="#projects">Explore my work <span>↓</span></a>
-          <a class="button button-outline" href="/resume.pdf" download="Hariette-Bisa-Resume.pdf">Download my resume <span>↓</span></a>
+          <a class="button button-outline" href="/Bisa,%20Hariette.pdf" download="Hariette-Bisa-Resume.pdf">Download my resume <span>↓</span></a>
         </div>
       </div>
-      <img class="hero-visual" src="/gallery/uniform_pic.jpg" alt="Portrait in a school uniform" />
+      <div class="hero-visual-frame">
+        <img class="hero-visual" src="/gallery/uniform_pic.jpg" alt="Portrait in a school uniform" />
+      </div>
       <a class="scroll-note" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
     </section>
 
@@ -191,24 +193,31 @@ document.querySelector('#app').innerHTML = `
         <div class="section-label"><span>05</span><span>COURSES, AWARDS & MILESTONES</span></div>
         <div class="certificates-heading"><h2>Learning, <span class="serif-word">recognized.</span></h2><p>A place for certificates, workshops, and achievements collected along the way.</p></div>
         <div class="certificate-gallery">
-          <article class="certificate-tile">
-            <div class="certificate-preview">
+          <article class="certificate-card">
+            <div class="certificate-frame">
               <img src="/certificate/Java.png" alt="Java certificate" loading="lazy" />
             </div>
             <div class="certificate-details">
-              <span class="eyebrow">ORACLE ACADEMY</span>
               <h3>Java Fundamentals</h3>
-              <p>Course certificate</p>
+              <p>Oracle Academy · Course certificate</p>
             </div>
           </article>
-          <article class="certificate-tile">
-            <div class="certificate-preview">
-              <img src="/certificate/TESDA.png" alt="Java certificate" loading="lazy" />
+          <article class="certificate-card">
+            <div class="certificate-frame">
+              <img src="/certificate/TESDA.png" alt="TESDA certificate for Developing Designs for User Experience" loading="lazy" />
             </div>
             <div class="certificate-details">
-              <span class="eyebrow">TESDA</span>
-              <h3>Developing Designs for User Experience(UX)</h3>
-              <p>Completion certificate</p>
+              <h3>Developing Designs for User Experience (UX)</h3>
+              <p>TESDA · Completion certificate</p>
+            </div>
+          </article>
+            <article class="certificate-card">
+            <div class="certificate-frame">
+              <img src="/certificate/egov.png" alt="EGov Certificate" loading="lazy" />
+            </div>
+            <div class="certificate-details">
+              <h3>eGOVPh Super App Orientation</h3>
+              <p>DICT · Participation certificate</p>
             </div>
           </article>
         </div>
@@ -219,7 +228,7 @@ document.querySelector('#app').innerHTML = `
       <div class="contact-card">
         <div class="contact-top"><span>HAVE A GOOD ONE IN MIND?</span><span class="contact-star">✳</span></div>
         <h2>Let’s make<br />something <span class="serif-word">matter.</span></h2>
-        <div class="contact-bottom"><p>Have a project, a question, or a playlist to swap?<br />My inbox is always open.</p><a class="button button-light" href="mailto:hello@example.com">Say hello <span>↗</span></a></div>
+        <div class="contact-bottom"><p>Have a project, a question, or a playlist to swap?<br />My inbox is always open.</p><a class="button button-light" href="mailto:hariettebisa@gmail.com">Say hello <span>↗</span></a></div>
       </div>
     </section>
   </main>
